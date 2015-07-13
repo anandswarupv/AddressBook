@@ -1,9 +1,11 @@
-package com.narvar.assignment.addressbook.config;
+package org.example.assignment.addressbook.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 /**
  * Created by Anand Swarup V on 7/13/15.

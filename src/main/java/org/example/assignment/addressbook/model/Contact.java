@@ -1,4 +1,4 @@
-package com.narvar.assignment.addressbook.model;
+package org.example.assignment.addressbook.model;
 
 /**
  * A simple DTO for the contacts example.

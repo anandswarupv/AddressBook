@@ -1,10 +1,10 @@
-package com.narvar.assignment.addressbook.ui;
+package org.example.assignment.addressbook.ui;
 
-import com.narvar.assignment.addressbook.model.Contact;
-import com.narvar.assignment.addressbook.service.ContactService;
-import com.vaadin.data.Property;
 import com.vaadin.server.Sizeable;
-import com.vaadin.ui.*;
+import com.vaadin.ui.Alignment;
+import com.vaadin.ui.FormLayout;
+import com.vaadin.ui.VerticalLayout;
+import org.example.assignment.addressbook.service.ContactService;
 
 /**
  * Created by Anand Swarup V on 7/13/15.

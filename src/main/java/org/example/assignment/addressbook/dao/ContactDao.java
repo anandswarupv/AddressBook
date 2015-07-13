@@ -1,7 +1,7 @@
-package com.narvar.assignment.addressbook.dao;
+package org.example.assignment.addressbook.dao;
 
-import com.narvar.assignment.addressbook.config.ConnectionManager;
-import com.narvar.assignment.addressbook.model.Contact;
+import org.example.assignment.addressbook.config.ConnectionManager;
+import org.example.assignment.addressbook.model.Contact;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

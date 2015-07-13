@@ -11,7 +11,7 @@
     </appender>
 
     <!-- Application Loggers -->
-    <logger name="com.narvar.assignment.addressbook">
+    <logger name="org.example.assignment.addressbook">
         <level value="info" />
     </logger>
 

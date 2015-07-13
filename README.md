@@ -1,7 +1,7 @@
 Addressbook App
 ===============
 
-This sample app is created using Java 8, Maven, Vaadin Framework, Spring and PostgresDB
+This example app is created using Java 8, Maven, Vaadin Framework, Spring and PostgresDB
 
 Running the example from the command line
 -------------------

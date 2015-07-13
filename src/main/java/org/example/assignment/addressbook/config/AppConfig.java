@@ -1,7 +1,7 @@
-package com.narvar.assignment.addressbook.config;
+package org.example.assignment.addressbook.config;
 
-import com.narvar.assignment.addressbook.dao.ContactDao;
-import com.narvar.assignment.addressbook.service.ContactService;
+import org.example.assignment.addressbook.dao.ContactDao;
+import org.example.assignment.addressbook.service.ContactService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

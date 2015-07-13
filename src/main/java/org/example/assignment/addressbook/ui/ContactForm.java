@@ -1,9 +1,9 @@
-package com.narvar.assignment.addressbook.ui;
+package org.example.assignment.addressbook.ui;
 
-import com.narvar.assignment.addressbook.model.Contact;
-import com.narvar.assignment.addressbook.service.ContactService;
 import com.vaadin.data.Property;
 import com.vaadin.ui.*;
+import org.example.assignment.addressbook.model.Contact;
+import org.example.assignment.addressbook.service.ContactService;
 import org.springframework.util.StringUtils;
 
 /**

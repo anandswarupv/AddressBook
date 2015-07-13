@@ -1,7 +1,5 @@
-package com.narvar.assignment.addressbook;
+package org.example.assignment.addressbook;
 
-import com.narvar.assignment.addressbook.service.ContactService;
-import com.narvar.assignment.addressbook.ui.LayoutBuilder;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.annotations.VaadinServletConfiguration;
@@ -9,7 +7,10 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.server.WrappedHttpSession;
 import com.vaadin.server.WrappedSession;
-import com.vaadin.ui.*;
+import com.vaadin.ui.Component;
+import com.vaadin.ui.UI;
+import org.example.assignment.addressbook.service.ContactService;
+import org.example.assignment.addressbook.ui.LayoutBuilder;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
@@ -17,7 +18,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpSession;
 
-@Title("Narvar Contacts")
+@Title("Addressbook App")
 @Theme("valo")
 public class Main extends UI {
 

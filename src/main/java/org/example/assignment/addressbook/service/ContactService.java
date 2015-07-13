@@ -1,7 +1,7 @@
-package com.narvar.assignment.addressbook.service;
+package org.example.assignment.addressbook.service;
 
-import com.narvar.assignment.addressbook.dao.ContactDao;
-import com.narvar.assignment.addressbook.model.Contact;
+import org.example.assignment.addressbook.dao.ContactDao;
+import org.example.assignment.addressbook.model.Contact;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
