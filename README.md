@@ -7,7 +7,7 @@ Running the example from the command line
 -------------------
 1. Create the Postgres Database as per the src/main/resources/tables.sql file
 2. Ensure Postgres is running
-$ mvn jetty:run
+3. $ mvn jetty:run
 
 Open http://localhost:8080/
 

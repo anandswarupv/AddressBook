@@ -40,7 +40,7 @@ public class Main extends UI {
         return (ContactService) context.getBean("contactService");
     }
 
-    /*  Deployed as a Servlet or Portlet.
+    /*  Deployed as a Servlet
      *
      *  You can specify additional servlet parameters like the URI and UI
      *  class name and turn on production mode when you have finished developing the application.
