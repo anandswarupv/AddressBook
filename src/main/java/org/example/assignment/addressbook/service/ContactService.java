@@ -6,11 +6,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.io.Serializable;
+
 /**
  * Backend service class. This is just a typical Java backend implementation
  * class and nothing Vaadin specific.
  */
-public class ContactService {
+public class ContactService implements Serializable {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ContactService.class);
 

@@ -5,6 +5,7 @@ import org.example.assignment.addressbook.model.Contact;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -12,7 +13,7 @@ import java.sql.SQLException;
 /**
  * Created by Anand Swarup V on 7/12/15.
  */
-public class ContactDao {
+public class ContactDao implements Serializable {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ContactDao.class);
     private static final String insertIntoContact = "INSERT INTO contact(name, email, profession, school, hospital) VALUES (?, ?, ?, ?, ?);";

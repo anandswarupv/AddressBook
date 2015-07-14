@@ -38,7 +38,7 @@ public class ContactDaoTest {
         String driver = "org.h2.Driver";
         String userName = "sa";
         String password = "password";
-        Class.forName(driver).newInstance();
+        Class.forName(driver);
         return DriverManager.getConnection(url, userName, password);
     }
 
